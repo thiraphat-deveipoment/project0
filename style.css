@@ -24,7 +24,6 @@
     background: var(--light-color);
     text-align: center;
     padding: 1rem 5.5%;
-    background: var(--background-color);
 }
 .header .top-header span{
     color: var(--background-color);
