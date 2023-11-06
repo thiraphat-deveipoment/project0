@@ -50,3 +50,22 @@
     align-items: center;
     gap: 1.6rem;
 }
+.bottom-header .others a {
+    font-size: 1.3rem;
+    color: #fff;
+}
+.bottom-header .others button{
+    font-size: 1.1rem;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.bottom-header .navLink li a:hover,
+.bottom-header .others a:hover,
+.bottom-header .others button:hover{
+    
+}
