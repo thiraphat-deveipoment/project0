@@ -102,3 +102,19 @@
     line-height:1.9rem;
     padding-bottom: 2rem;
 }
+.hero .swiper .slide .details span img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    position: relative;
+}
+.hero .swiper .slide .details span{
+    color: #fff;
+    line-height: 40px;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+.hero .swiper .slide .details .btn{
+    display: flex;
+    align-items: center;
+}
