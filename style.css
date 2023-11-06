@@ -172,3 +172,25 @@
     cursor: pointer;
     display: block;
 }
+@media(max-width:1200px){
+    .bottom-header .navLink{
+        gap: 0.5rem;
+    }
+    .bottom-header .others{
+        gap: 1rem;
+    }
+    .bottom-header .navLink{
+        display: block;
+        position: absolute;
+        top: 7.8rem;
+        left: 0;
+        width: 100%;
+        background: #090d17;
+        overflow: hidden;
+        z-index: 100;
+        text-align: left;
+        padding-left: 3.5rem;
+        padding-bottom: 1rem;
+        transition: 0.4s ease;
+    }
+}
