@@ -344,3 +344,45 @@ section{
         flex-wrap: wrap;
     }
 }
+/*=== Trending Product Section start ===*/
+section h5{
+    font-size: 1.4rem;
+    color: var(--main-color);
+    padding-bottom: 1rem;
+}
+section h2{
+    color: #fff;
+    font-size: 2.6rem;
+    padding-bottom: 2rem;
+}
+.product{
+    background: var(--background-color);
+    height: 90vh;
+}
+.product .filter_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+}
+.product .filter_button button{
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 5px;
+}
+.product .filter_button button.active{
+    color: var(--background-color);
+    background-color: #fff;
+}
+.product .swiper .filter-col{
+    width: 100%;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
