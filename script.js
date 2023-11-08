@@ -19,6 +19,7 @@ menuBar.onclick = ()=> {
 }
 /*=== Product Section start ===*/
 var swiper = new swiper(".myproduct",{
+    WatchSlidesProgress: true,
     spaceBetween: 30,
     centeredSlides: true,
     loop:true,
@@ -26,6 +27,6 @@ var swiper = new swiper(".myproduct",{
         550: {
             slidesPerView: 2,
             spaceBetween: 40,
-        }
-    }
+        },
+    },
 });
