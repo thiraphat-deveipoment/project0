@@ -267,15 +267,16 @@ section{
 /*=== group section start ===*/
 .group .group-row{
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     gap: 2rem;
 } 
-.group-row .image{
+.group-row .image {
     flex: 1 1 40rem;
 }
 .group-row .image img{
     width: 100%;
-    height: 34rem;
+    height: 30rem;
+    padding: 20px;
     position: relative;
 }
 .group-row .info{
@@ -287,6 +288,10 @@ section{
     text-transform: uppercase;
     padding: 1rem 0;
 }
+.group-row .info h3{
+    font-size: 1.6rem;
+    color: var(--background-color);
+}
 .group-row .info p{
     padding: 1rem 0;
     font-size: 1.2rem;
@@ -295,6 +300,7 @@ section{
 .group-row .info .counter{
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 .group-row .info .counter .count-col{
     flex: 1 1 20rem;
