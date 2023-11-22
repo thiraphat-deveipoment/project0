@@ -397,3 +397,22 @@ section h2{
     height: 14rem;
     padding: 1rem;
 }
+.product .swiper .filter-col .info h6{
+    font-size: 1,3rem;
+    color: var(--background-color);
+    padding-bottom: 1rem;
+}
+.product .swiper .filter-col /info i{
+    color: var(--main-color);
+}
+.product .swiper .filter-col .info p{
+    color: var(--background-color);
+    font-size : 1.3rem;
+    padding-top: 1rem;
+    font-weight: 700;
+}
+.product .swiper .filter-col .info p span{
+    color: #413e3e;
+    font-weight: 500;
+    padding-right: 5px;
+}
